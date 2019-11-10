@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>GMO Quiz</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<div>
+			<h1>Do you really know the TRUTH?</h1>
+		</div>
+		</div>
+	</header>
+	<ul>
+		<li class="sizeMe">Question:
+			<span class="questionNumber">0</span>/10</li>
+          <li class="sizeMe">Score:
+            <span class="score">0</span>
+          </li>
+        </ul>
+    </section>
+    <main class="container">
+
+<!-- .js-start-page here -->
+        <div class="js-start-page">
+                <div>
+                    <h1>Lets go down the rabbit hole...</h1>
+                    <div class="inner">
+                        <h2>Press start to test your knowledge</h2>
+                        <button type="button" id="start">Start the quiz!</button>
+                    </div>
+                </div>
+        </div>
+  <!-- .js-start-page end -->
+
+      <!-- question stuff -->
+<div class="somebackground">
+
+                <p class="question">Question goes here</p>
+            
+            <div class="inner">
+                      
+                    <form id="myForm">
+                        
+                            <label for="one"></label>
+                            <input type='radio' id="one" name="answer" value="yes"><hr>
+                            <label for="two"></label>
+                            <input type='radio' id="two" name="answer" value="yes"><hr>
+                            <label for="three"></label>
+                            <input type='radio' id="three" name="answer" value="yes"><hr>
+                            <label for="four"></label>
+                            <input type='radio' id="four" name="answer" value="yes">
+                        <br>
+                        <button class="submit" type="submit">Submit answer</button>
+                    </form>
+
+            </div>
+
+            
+        </div>
+<!-- question stuff end -->
+
+
+<!-- explanatin stuff -->
+<div class="explain">
+            <p class="explanation">This is a placeholder for the explanation of each question</p>
+            <button class="next">NEXT</button>
+        </div>
+  <!-- explanation stuff end -->
+
+ <!-- finished quiz needs work -->
+        <div class='finished'>
+          <p>Finished the quiz!! </p>
+          <button class="retake">Retake Quiz</button>
+        </div>
+  <!-- finished quiz stuff end -->
+
+
+    </main>
+
+<footer>
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="store.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
